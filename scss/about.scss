@@ -1,0 +1,42 @@
+// Калькулятор
+// width: 900px / 900px * 100%;
+
+@import "_variables";
+@import "_patterns";
+@import "_mixins";
+@import "_fonts";
+@import "_null";
+@import "_header";
+@import "_about";
+@import "_footer";
+
+body.lock {
+	overflow: hidden
+}
+
+// Включение шаблона из файла _patterns
+body {
+	@extend %fz;
+	font-family: $ff1;
+}
+main p{
+	line-height: 1.5;
+}
+[class*=__container] {
+	max-width: 1420px;
+	margin: 0 auto;
+	padding: 0 30px;
+	@media (max-width: 768px) {
+		max-width:none;
+		padding: 0 15px;
+	}
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+}
+
+
+/*==========================================================*/

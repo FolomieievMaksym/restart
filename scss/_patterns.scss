@@ -31,3 +31,20 @@
 .bg3 {
 	background-color: $bg3;
 }
+.button {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid $cBdLinks;
+	border-radius: 100px;
+	padding: 15px 28px;
+	transition: all .4s ease;
+	line-height: 1.17;
+	color: $c1;
+	&:hover {
+		background-color: $bg1; 
+	}
+}
+h6.d-none {
+	display: none;
+}

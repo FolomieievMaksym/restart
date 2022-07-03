@@ -158,25 +158,24 @@ main {
 		line-height: 1.375;
 	}
 // Кнопка
-	&__button {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border: 1px solid $cBdLinks;
-		border-radius: 100px;
-		padding: 15px;
-		max-width: 200px;
-		transition: all .4s ease;
-		line-height: 1.17;
-		color: $c1;
-		&:hover {
-			background-color: rgb(117, 112, 112);
-			color: #fff;
-		}
-		@media (max-width: 768px) {
-			width: 225px;
-		}
-	}
+	// &__button {
+	// 	display: flex;
+	// 	justify-content: center;
+	// 	align-items: center;
+	// 	border: 1px solid $cBdLinks;
+	// 	border-radius: 100px;
+	// 	padding: 15px;
+	// 	max-width: 200px;
+	// 	transition: all .4s ease;
+	// 	line-height: 1.17;
+	// 	color: $c1;
+	// 	&:hover {
+	// 		background-color: $bg1; 
+	// 	}
+	// 	@media (max-width: 768px) {
+	// 		width: 225px;
+	// 	}
+	// }
 	@media (max-width: 1200px) {
 		background-color: rgba(255, 255, 255, 0.9);
 	}
