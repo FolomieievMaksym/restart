@@ -67,6 +67,10 @@ body {
   background-color: #E5E5E5;
 }
 
+h6.d-none {
+  display: none;
+}
+
 @font-face {
   font-family: Roboto;
   font-display: swap;
