@@ -212,7 +212,7 @@ main {
 	}
 	&__columns {
 		display: flex;
-		margin: 0 -20px;
+		margin: 0 -15px;
 		@media (max-width: 1330px) {
 			flex-direction: column;
 			row-gap: 53px;
@@ -226,7 +226,7 @@ main {
 	}
 	&__content {
 		flex: 1 1 50%;
-		padding: 0 20px;
+		padding: 0 15px;
 	}
 
 	&__head {
@@ -337,7 +337,7 @@ main {
 	&__row {
 		display: flex;
 		justify-content: flex-start;
-		margin: 0 -20.5px;
+		margin: 0 -15px;
 		flex-wrap: wrap;
 		row-gap: 47px;
 		@media (max-width: 768px) {
@@ -350,7 +350,7 @@ main {
 
 	&__column {
 		flex: 0 1 33.333%;
-		padding: 0 20.5px;
+		padding: 0 15px;
 		@media (max-width: 1200px) {
 			flex: 0 1 50%;
 		}
@@ -434,7 +434,7 @@ main {
 		rgba(0, 0, 0, 0.05),
 		rgba(0, 0, 0, 0.02),
 		rgba(0, 0, 0, 0.01)),
-		url('../img/net/form/_bg.jpg')center/cover no-repeat;
+		url('../img/net/form/bg.jpg')center/cover no-repeat;
 		@media (max-width: 1400px) {
 			padding-bottom: 50%;
 		}
@@ -607,8 +607,16 @@ main {
 		border-radius: 3px;
 		border: none;
 		cursor: pointer;
+		transition: all .2s ease;
+		
 		@media (max-width: 968px) {
 			padding: 8px 30px;
+		}
+		&:hover {
+			background-color: #2EBF6B;
+		}
+		&:active {
+			background-color: #23A359;
 		}
 	}
 	
