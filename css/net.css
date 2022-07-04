@@ -741,7 +741,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -20px;
+  margin: 0 -15px;
 }
 
 @media (max-width: 1330px) {
@@ -770,7 +770,7 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .where__head {
@@ -909,7 +909,7 @@ main {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin: 0 -20.5px;
+  margin: 0 -15px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   row-gap: 47px;
@@ -931,7 +931,7 @@ main {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 33.333%;
           flex: 0 1 33.333%;
-  padding: 0 20.5px;
+  padding: 0 15px;
 }
 
 @media (max-width: 1200px) {
