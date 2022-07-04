@@ -64,7 +64,14 @@ body {
 }
 
 .button:hover {
-  background-color: #E5E5E5;
+  background-color: #333333;
+  color: #fff;
+}
+
+.button:active {
+  color: #333333;
+  background-color: #fff;
+  border: 3px solid #CECECE;
 }
 
 h6.d-none {
@@ -137,6 +144,10 @@ table {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.header {
+  background-color: #F8F9FA;
 }
 
 .header__body {
@@ -407,17 +418,13 @@ a {
   }
 }
 
-header.header,
-main.main {
-  background-color: #F8F9FA;
-}
-
 main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   color: #666666;
   padding-bottom: 101px;
+  background-color: #F8F9FA;
 }
 
 @media (max-width: 768px) {

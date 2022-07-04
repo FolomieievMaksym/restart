@@ -64,7 +64,14 @@ body {
 }
 
 .button:hover {
-  background-color: #E5E5E5;
+  background-color: #333333;
+  color: #fff;
+}
+
+.button:active {
+  color: #333333;
+  background-color: #fff;
+  border: 3px solid #CECECE;
 }
 
 h6.d-none {

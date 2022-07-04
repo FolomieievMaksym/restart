@@ -458,7 +458,7 @@ main {
 }
 
 @media (max-width: 1200px) {
-  .contacts {
+  .contacts::after {
     display: none;
   }
 }
