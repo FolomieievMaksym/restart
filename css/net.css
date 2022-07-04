@@ -1033,7 +1033,7 @@ main {
   position: relative;
   padding-bottom: 40%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(0, 0, 0, 0.595)), color-stop(rgba(0, 0, 0, 0.578)), color-stop(rgba(0, 0, 0, 0.551)), color-stop(rgba(0, 0, 0, 0.511)), color-stop(rgba(0, 0, 0, 0.46)), color-stop(rgba(0, 0, 0, 0.4)), color-stop(rgba(0, 0, 0, 0.334)), color-stop(rgba(0, 0, 0, 0.265)), color-stop(rgba(0, 0, 0, 0.199)), color-stop(rgba(0, 0, 0, 0.14)), color-stop(rgba(0, 0, 0, 0.09)), color-stop(rgba(0, 0, 0, 0.05)), color-stop(rgba(0, 0, 0, 0.02)), to(rgba(0, 0, 0, 0.01))), url("../img/net/form/bg.jpg") center/cover no-repeat;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.578), rgba(0, 0, 0, 0.551), rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.334), rgba(0, 0, 0, 0.265), rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.01)), url("../img/net/form/_bg.jpg") center/cover no-repeat;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.578), rgba(0, 0, 0, 0.551), rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.334), rgba(0, 0, 0, 0.265), rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.01)), url("../img/net/form/bg.jpg") center/cover no-repeat;
 }
 
 @media (max-width: 1400px) {
